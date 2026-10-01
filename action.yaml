@@ -1,0 +1,9 @@
+name: "Hello World from Composite Action 2"
+description: "This is a composite action that echoes a hello message."
+
+runs:
+  using: "composite"
+  steps:
+    - name: Echo hello message
+      shell: bash
+      run: echo "Hello from action 2"
